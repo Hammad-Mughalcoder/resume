@@ -1,0 +1,428 @@
+@media (max-width: 390px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 767px) {
+
+    .container,
+    .footer-container {
+        max-width: 540px;
+        margin: 0 auto;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    /* section home start */
+    .text-div {
+        width: 100%;
+    }
+
+    .text-div h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .mobile-img {
+        width: 100%;
+
+    }
+
+    .mobile-img img {
+        width: 40%;
+
+    }
+
+    /* section home end */
+    /* section  servivces start */
+    .services-background-img1,
+    .broadband-img2 {
+        height: auto;
+    }
+
+    /* .left-img,
+    .right-single-img img {
+        width: 130px;
+    } */
+
+    .services-details,
+    .broadband-text {
+        margin-top: 100px;
+    }
+
+    .services-details h5,
+    .services-details ul,
+    .broadband-text h5,
+    .broadband-text ul,
+    .broadband-text p {
+        font-size: 12px;
+        gap: 20px;
+    }
+
+    .services-details h3,
+    .broadband-text h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    /* section services end */
+    /* broadband section start */
+    .services-bg-img,
+    .broadband-bg-img {
+        flex-wrap: wrap-reverse;
+    }
+
+    .broadband-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gb10-m-r-img {
+        text-align: center;
+    }
+
+    .broadband-img2 {
+        width: 100vw;
+    }
+
+    .broadband-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .od-1 {
+        order: 2;
+    }
+
+    .od-2 {
+        order: 1;
+    }
+
+    .broadband-text ul li {
+        width: -webkit-fill-available;
+    }
+
+    /* secton gb end */
+    /* section laptop start */
+    .laptop-img,
+    .laptop-text {
+        width: 100%;
+    }
+
+    /* footer start */
+    footer {
+        background-position: bottom;
+
+    }
+
+    footer .row {
+        justify-content: center;
+        padding-bottom: 115px;
+        display: grid;
+        gap: 30px;
+    }
+
+    .box1 {
+        display: grid;
+        justify-content: center;
+    }
+    .d-flex {
+        gap: 70px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .footer-container {
+        width: 740px;
+        margin: 0 auto;
+    }
+
+    /* section home start */
+    .text-div {
+        width: 100%;
+
+    }
+
+    .text-div h3 {
+        font-size: 75px;
+        line-height: 70px;
+    }
+
+    .mobile-img {
+        width: 98%;
+
+    }
+
+    .mobile-img img {
+        width: 40%;
+
+    }
+
+    /* section home end */
+    /* section services start */
+    .text-heading h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .text-heading h3 {
+        font-size: 63px;
+        line-height: 60px;
+    }
+
+    .services-details h3,
+    .broadband-text h3 {
+        font-size: 46px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .services-details {
+        width: 100%;
+        padding-left: 170px;
+
+    }
+
+    /* section services end */
+    /* broadband section start*/
+    .services-bg-img,
+    .broadband-bg-img {
+        flex-wrap: wrap-reverse;
+    }
+
+    .broadband-img img {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .gb10-m-r-img {
+        text-align: center;
+
+    }
+
+    .broadband-img2 {
+        width: 100vw;
+    }
+
+    .broadband-text {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .broadband-text ul li {
+        width: 31%;
+    }
+
+    .od-1 {
+        order: 2;
+    }
+
+    .od-2 {
+        order: 1;
+    }
+
+    /* secton gb end */
+    /* section laptop start */
+    .laptop-img,
+    .laptop-text {
+        width: 100%;
+    }
+
+    /* section laptop end */
+    /* footer start */
+    footer {
+        background-position: bottom;
+
+    }
+
+    footer .row {
+        justify-content: center;
+        padding-bottom: 115px;
+        display: grid;
+        gap: 30px;
+    }
+
+    .box1,
+    .box2 {
+        display: grid;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+    .container,
+    .footer-container {
+        width: 960px;
+    }
+
+    /* home section start */
+
+    .text-div {
+        width: 40%;
+
+    }
+
+    .text-div h3 {
+        font-size: 49px;
+        line-height: 49px;
+    }
+
+    .mobile-img {
+        width: 60%;
+
+    }
+
+    /* section home end */
+    /* section services start */
+    .services-background-img1 {
+        width: 40vw;
+        height: auto;
+    }
+
+    .left-mobile-img,
+    .gb10-m-r-img {
+        width: 30%;
+    }
+
+    .services-details,
+    .broadband-text {
+        width: 70%;
+        height: auto;
+    }
+
+    .left-mobile-img img {
+        width: 70%;
+    }
+
+    /* section services end */
+    /* section gb start */
+    .services-bg-img,
+    .broadband-bg-img {
+        flex-wrap: nowrap;
+    }
+
+    .broadband-img2 {
+        width: 85vw;
+        height: 80vh;
+    }
+
+    .gb10-m-r-img {
+        text-align: start;
+    }
+
+    .gb10-m-r-img img {
+        width: 70%;
+    }
+
+    .od-1 {
+        order: 1;
+    }
+
+    .od-2 {
+        order: 2;
+    }
+
+    /* secton gb end */
+    /* section laptop start */
+    .laptop-img,
+    .laptop-text {
+        width: 50%;
+    }
+
+    /* section laptop end */
+    .fantastic p {
+        width: 75%;
+    }
+
+    /* all section end */
+    /* footer start */
+    footer {
+        background-position: unset;
+
+    }
+
+    footer .row {
+        padding-bottom: 100px;
+    }
+
+    footer .row {
+        display: flex;
+        gap: 0px;
+    }
+
+    .box1 {
+        display: inline-block;
+    }
+
+    .box1 {
+        width: 10%;
+    }
+
+    .box2 {
+        width: 70%;
+    }
+
+    .box3 {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    /* header start */
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        order: 3;
+        color: #fff;
+    }
+
+    /* header end */
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+
+    /* header start */
+    .container-header div {
+        display: none;
+    }
+
+    /* services section start */
+    /* services section end */
+    .text-div h3 {
+        font-size: 59px;
+    }
+
+    /* end */
+    /* footer start */
+    .footer-container {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .footer-container {
+        width: 1320px;
+    }
+
+    /* header start */
+    .container-header div {
+        display: none;
+    }
+
+    /* header end */
+
+}
